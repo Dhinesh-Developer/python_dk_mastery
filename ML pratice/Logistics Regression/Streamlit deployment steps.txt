@@ -1,0 +1,12 @@
+ pip install virtualenv
+ python -m venv deployment streamlit_deploy
+ cd .\streamlit_deploy\
+ Scripts\activate
+ pip install streamlit
+  streamlit run Male_Female_classfication.py
+  dir
+  cd ..
+  Email : Enter the Email.
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.227.117:8501
+  
